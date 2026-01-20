@@ -1,0 +1,27 @@
+{
+  "name": "flipkart-automation-tests",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for Flipkart - Sort validation and Add to Cart functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:sort": "npx playwright test sortValidation.spec.js",
+    "test:cart": "npx playwright test addToCart.spec.js",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report",
+    "test:ui": "npx playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "flipkart",
+    "e-commerce"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}

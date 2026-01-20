@@ -1,0 +1,20 @@
+{
+  "sortValidation": {
+    "searchTerm": "shoes",
+    "sortOption": "Price -- Low to High",
+    "pageLimit": 2,
+    "description": "Test data for sort functionality validation"
+  },
+  "addToCart": {
+    "searchTerm": "shoes",
+    "sortOption": "Price -- Low to High",
+    "productsToAdd": [2, 3],
+    "description": "Test data for add to cart functionality validation"
+  },
+  "comments": {
+    "searchTerm": "The search keyword to be used in the search box",
+    "sortOption": "The sort filter option to apply on search results",
+    "pageLimit": "Number of pages to validate for sort order",
+    "productsToAdd": "Array of product positions to add to cart (1-indexed)"
+  }
+}
